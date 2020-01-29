@@ -8,7 +8,9 @@
   * For Azure Application Insights
       1. Install-Package Microsoft.ApplicationInsights.AspNetCore -Version 2.7.1 or (latest)
       2. Install-Package Microsoft.Extensions.Logging.ApplicationInsights -Version 2.10.0 (for logging ILogger user defined logs in ApplicationInsights)
-
+  * For Azure Key Vaults
+      1. Install-Package Microsoft.Extensions.Configuration.AzureKeyVault -Version 2.2.0
+      2. Install-Package Microsoft.Azure.KeyVault -Version 3.0.4
 #### Bower  
 
 * Bower Packages for the Project
